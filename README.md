@@ -16,18 +16,11 @@ This project has two packages:
 Running Tests
 -------------
 
-To run tests from the example project root directory, run one of the following commands:
+To run tests from the example project root directory, run the following commands:
+* `pytest`
+* `coverage run -m pytest`
 
-* `python -m unittest discover` to discover all unit tests in a project
-* `python -m unittest com.automationpanda.tests.test_calc` to run the test module by name
-* `python -m unittest com.automationpanda.tests.test_calc.CalculatorTest` to run a TestCase class by name
-* `python -m unittest com/automationpanda/tests/test_calc.py` to run the test module by file path
+Running SonarScanner
+-------------
 
-Note that unittest tests must be in a Python package from the project root,
-meaning that the `tests` directory needs `__init__.py`.
-
-To generate XML test reports, install `unittest-xml-reporting` and run:
-
-* `python -m com.automationpanda.tests.test_calc`
-
-XML reports will be printed to the `test-reports` directory.
+* `/Users/linty/SQ/sonar-scanner-4.5.0.2216-macosx/bin/sonar-scanner`
