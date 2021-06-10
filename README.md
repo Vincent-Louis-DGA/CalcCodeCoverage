@@ -22,5 +22,5 @@ To run tests from the example project root directory, run the following commands
 
 Running SonarScanner
 -------------
-
-* `/Users/linty/SQ/sonar-scanner-4.5.0.2216-macosx/bin/sonar-scanner`
+To run sonarscanner, execute the following command at the root of the repository, let's say on sonar-project.properties
+* `/Users/path/to/sonar-scanner-yourVersion-yourOS/bin/sonar-scanner`
