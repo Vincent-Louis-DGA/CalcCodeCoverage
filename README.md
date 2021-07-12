@@ -16,7 +16,7 @@ This project has two packages:
 Running Tests
 -------------
 
-To run tests from the example project root directory, run the following commands:
+To run tests, run the following commands from the example project root directory after having downloaded CalcCodeCoverage source code:
 * `pytest`
 * `coverage run -m pytest`
 * `python -m coverage xml`
