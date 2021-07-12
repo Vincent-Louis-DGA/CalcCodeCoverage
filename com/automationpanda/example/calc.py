@@ -25,10 +25,10 @@ class Calculator(object):
 
     def divide(self, a, b):
         # automatically raises ZeroDivisionError
-        if a<100 and a>0 and b!=0:
+        if b!=0:
             self._last_answer = a * 1.0 / b
         else:
-            print('Be careful, a and b values are not compliant')
+            print('Be careful, zerodivision is not allowed')
         return self.last_answer
 
     def maximum(self, a, b):
