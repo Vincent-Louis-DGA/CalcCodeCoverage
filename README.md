@@ -24,7 +24,7 @@ To run tests from the example project root directory, run the following commands
 Configure your own sonar-project.properties (root of the repository)
 -------------
 Set sonar.projectKey, sonar.projectName, and sonar.login parameters.
-For instance Group-O1
+For instance Group-00
 
 
     # Required metadata
