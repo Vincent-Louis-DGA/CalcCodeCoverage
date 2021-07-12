@@ -23,7 +23,7 @@ To run tests from the example project root directory, run the following commands
 
 Configure your own sonar-project.properties (root of the repository)
 -------------
-Set sonar.projectKey, sonar.projectName, and sonar.login parameters.
+Set these parameters : sonar.projectKey, sonar.projectName, and sonar.login (your own token, see googlesheet Identifiants-TP).
 For instance Group-00
 
 
