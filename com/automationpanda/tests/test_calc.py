@@ -48,7 +48,7 @@ class CalculatorTest(unittest.TestCase):
 
    # def test_divide(self):
    #     value = self.calc.divide(NUMBER_1, NUMBER_2)
-   #     self.assertEqual(value, 1.5, FAILURE)
+   #     self.assertEqual(value, XX, FAILURE)
    #     self.assertEqual(value, self.calc.last_answer, FAILURE)
 
     def test_divide_by_zero(self):
