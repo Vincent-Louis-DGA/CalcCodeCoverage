@@ -18,6 +18,7 @@ Running Tests
 
 To run tests from the example project root directory, run the following commands:
 * `pytest`
+* `coverage run -m pytest`
 * `python -m coverage xml`
 
 Running SonarScanner
