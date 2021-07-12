@@ -21,6 +21,30 @@ To run tests from the example project root directory, run the following commands
 * `coverage run -m pytest`
 * `python -m coverage xml`
 
+Configure your sonar-project.properties
+-------------
+Set sonar.projectKey, sonar.projectName, sonar.projectVersion and sonar.login parameters.
+For instance Group-1
+
+# Required metadata
+sonar.projectKey=Group-1
+sonar.projectName=Projet VincentLouis&PerrineLabarthe 
+sonar.projectVersion=1
+
+# Language
+#sonar.language=python
+
+# Comma-separated paths to directories with sources (required)
+sonar.sources=.
+sonar.python.coverage.reportPaths=test/coverage.xml
+
+# Encoding of the source files
+sonar.sourceEncoding=UTF-8
+
+sonar.host.url=https://lintycloud.linty-services.com
+sonar.login=ac3bbaa6cea25f39aaed77209ca98ee9a3164cec
+
+
 Running SonarScanner
 -------------
 To run sonarscanner, download it https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-4.6.2.2472.zip, unzip the file and then execute the following command at the root of the repository, let's say on sonar-project.properties
