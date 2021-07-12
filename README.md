@@ -23,5 +23,5 @@ To run tests from the example project root directory, run the following commands
 
 Running SonarScanner
 -------------
-To run sonarscanner, execute the following command at the root of the repository, let's say on sonar-project.properties
+To run sonarscanner, download it https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-4.6.2.2472.zip, unzip the file and then execute the following command at the root of the repository, let's say on sonar-project.properties
 * `/Users/path/to/sonar-scanner-yourVersion-yourOS/bin/sonar-scanner`
