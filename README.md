@@ -28,7 +28,7 @@ For instance Group-00
 
 
     # Required metadata
-    sonar.projectKey=Group-01
+    sonar.projectKey=Group-00
     sonar.projectName=Projet VincentLouis-PerrineLabarthe 
     sonar.projectVersion=1
 
