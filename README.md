@@ -24,7 +24,7 @@ Download or Clone this repo : git clone https://github.com/Vincent-Louis-DGA/Cal
 
 Configure your own sonar-project.properties (root of the repository)
 -------------
-Chose your Group and set the column "Name" of the googlesheet "Identifiers-TP" https://docs.google.com/spreadsheets/d/1p7gKri37ioQVs517oSxreZ9eFs0bAkwmTSx-rDYbqLI/edit?usp=sharing
+Choose your Group and set the column "Name" of the googlesheet "Identifiers-TP" https://docs.google.com/spreadsheets/d/1p7gKri37ioQVs517oSxreZ9eFs0bAkwmTSx-rDYbqLI/edit?usp=sharing
 
 
 Set these parameters in your own sonar-project.properties (this file is at the root of your cloned repo) : sonar.projectKey, sonar.projectName, and sonar.login.
