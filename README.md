@@ -18,7 +18,7 @@ TP N°1 Technical Debt (part 1)
 -----------------
 
 
-Download or Clone this repo : 'git clone https://github.com/Vincent-Louis-DGA/CalcCodeCoverage/
+Download or Clone this repo : git clone https://github.com/Vincent-Louis-DGA/CalcCodeCoverage/
 
 
 
@@ -27,7 +27,7 @@ Configure your own sonar-project.properties (root of the repository)
 Chose your Group and set the column "Name" of the googlesheet "Identifiers-TP" https://docs.google.com/spreadsheets/d/1p7gKri37ioQVs517oSxreZ9eFs0bAkwmTSx-rDYbqLI/edit?usp=sharing
 
 
-Set these parameters in your own sonar-project.properties : sonar.projectKey, sonar.projectName, and sonar.login.
+Set these parameters in your own sonar-project.properties (this file is at the root of your cloned repo) : sonar.projectKey, sonar.projectName, and sonar.login.
 
 
 For instance Group-00
