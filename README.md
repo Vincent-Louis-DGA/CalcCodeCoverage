@@ -12,3 +12,11 @@ Project Structure
 This project has two packages:
 * `com.automationpanda.example` contains `calc.py`, which has a basic Calculator class.
 * `com.automationpanda.tests` contains `test_calc.py`, which contains `unittest` test cases.
+
+Instructions
+
+Download or Clone this repo : git clone https://github.com/Vincent-Louis-DGA/CalcCodeCoverage/
+
+For each TP, follow instructions described at the root of the repo : 
+* TP-TechnicalDebt.docx 
+* TP-StruturalCoverage.docx
